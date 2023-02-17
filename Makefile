@@ -8,7 +8,7 @@ COMPILER = g++
 STD = c++11
 OUTPUT = main
 SRC = main.cpp
-HEADERS = colour.h 
+HEADERS = src/colour.h 
 
 all: compile run 
 

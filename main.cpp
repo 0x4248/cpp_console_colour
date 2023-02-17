@@ -5,7 +5,7 @@
 // GitHub: https://www.github.com/awesomelewis2007/Console_colour
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 #include <iostream>
-#include "colour.h"
+#include "src/colour.h"
 int main(int argc, char const *argv[])
 {
     bool test_types = false;
