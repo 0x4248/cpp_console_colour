@@ -1,9 +1,9 @@
-// Console_colour (Demo file)
-// A simple header file to add colour to your console output.
-////////////////////////////////////////////////////////////////////////////////////////////////////
-// By: awesomelewis2007
-// GitHub: https://www.github.com/awesomelewis2007/Console_colour
-////////////////////////////////////////////////////////////////////////////////////////////////////
+/* Console_colour (Demo file)
+ * A simple header file to add colour to your console output.
+ * By: awesomelewis2007
+ * GitHub: https://www.github.com/awesomelewis2007/Console_colour
+*/
+
 #include <iostream>
 #include "src/colour.h"
 int main(int argc, char const *argv[])
