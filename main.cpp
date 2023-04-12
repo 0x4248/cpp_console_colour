@@ -2,7 +2,7 @@
  * A simple header file to add colour to your console output.
  * By: awesomelewis2007
  * GitHub: https://www.github.com/awesomelewis2007/Console_colour
-*/
+ */
 
 #include <iostream>
 #include "src/colour.h"
@@ -66,7 +66,8 @@ int main(int argc, char const *argv[])
     ascii_colours::underline_italic underline_italic;
     ascii_colours::bold_underline_italic bold_underline_italic;
 
-    if (test_types == true) {
+    if (test_types == true)
+    {
         std::cout << normal.red << "Hello World!" << normal.reset << std::endl;
         std::cout << bold.red << "Hello World!" << bold.reset << std::endl;
         std::cout << italic.red << "Hello World!" << italic.reset << std::endl;
@@ -76,7 +77,8 @@ int main(int argc, char const *argv[])
         std::cout << underline_italic.red << "Hello World!" << underline_italic.reset << std::endl;
         std::cout << bold_underline_italic.red << "Hello World!" << bold_underline_italic.reset << std::endl;
     }
-    if (test_colours == true) {
+    if (test_colours == true)
+    {
         std::cout << normal.green << "Hello World!" << normal.reset << std::endl;
         std::cout << normal.blue << "Hello World!" << normal.reset << std::endl;
         std::cout << normal.yellow << "Hello World!" << normal.reset << std::endl;
@@ -85,28 +87,29 @@ int main(int argc, char const *argv[])
         std::cout << normal.white << "Hello World!" << normal.reset << std::endl;
         std::cout << normal.black << "Hello World!" << normal.reset << std::endl;
     }
-    if (test_colour_grid == true) {
-        std::cout << normal.red << "██" 
-            << normal.green << "██" 
-            << normal.yellow << "██" 
-            << normal.blue << "██" 
-            << normal.magenta << "██" 
-            << normal.cyan << "██" 
-            << normal.white << "██" 
-            << normal.black << "██" 
-            << normal.reset 
-            << std::endl;
+    if (test_colour_grid == true)
+    {
+        std::cout << normal.red << "██"
+                  << normal.green << "██"
+                  << normal.yellow << "██"
+                  << normal.blue << "██"
+                  << normal.magenta << "██"
+                  << normal.cyan << "██"
+                  << normal.white << "██"
+                  << normal.black << "██"
+                  << normal.reset
+                  << std::endl;
 
-        std::cout << bold.red << "██" 
-            << bold.green << "██" 
-            << bold.yellow << "██" 
-            << bold.blue << "██" 
-            << bold.magenta << "██" 
-            << bold.cyan << "██" 
-            << bold.white << "██" 
-            << bold.black << "██" 
-            << bold.reset 
-            << std::endl;
+        std::cout << bold.red << "██"
+                  << bold.green << "██"
+                  << bold.yellow << "██"
+                  << bold.blue << "██"
+                  << bold.magenta << "██"
+                  << bold.cyan << "██"
+                  << bold.white << "██"
+                  << bold.black << "██"
+                  << bold.reset
+                  << std::endl;
     }
 
     return 0;
