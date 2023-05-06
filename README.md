@@ -81,3 +81,7 @@ ascii_colours::italic_underline italic_underline;
 //print out red text
 std::cout << italic_underline.red << "Hello World!" << italic_underline.reset << std::endl;
 ```
+
+## License
+
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details
