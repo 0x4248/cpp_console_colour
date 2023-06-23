@@ -1,0 +1,14 @@
+{
+    "name": "cpp_console_colour",
+    "description": "Console colour is a simple header file to add colour to your console output.",
+    "version": "",
+    "main_file": "src/colour.h",
+    "author": "Lewis Evans",
+    "license": "GNU General Public License v3.0",
+    "url": "https://www.github.com/awesomelewis2007/cpp_console_colour",
+    "email": "none",
+    "languages": [
+        "c++"
+    ],
+    "actions": {}
+}
