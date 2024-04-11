@@ -1,7 +1,7 @@
 # Console_colour (Makefile)
 # A simple header file to add colour to your console output.
-# By: Lewis Evans
-# GitHub: https://www.github.com/lewisevans2007/Console_colour
+# By: 0x4248
+# GitHub: https://www.github.com/0x4248/Console_colour
 
 COMPILER = g++
 STD = c++11
